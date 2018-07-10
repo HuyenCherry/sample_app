@@ -1,0 +1,17 @@
+vi:
+  static_pages:
+    about:
+      page: "Về chúng tôi"
+      name_book: "Ruby on Rails Tutorial"
+      is_a: "là"
+      status: "một cuốn sách tốt"
+      address: "Address"
+      full_name: "Full name"
+    home:
+      page: "Trang chủ"
+      name_book: "Ruby on Rails Tutorial"
+      status: "rất tốt"
+    contact:
+      page: "Liên hệ"
+    help:
+      page: "Giúp đỡ"
