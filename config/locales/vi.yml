@@ -1,17 +1,19 @@
 vi:
+  app_name: "Huyen Cherry"
+  page_home: "Trang chủ"
+  page_about: "Về chúng tôi"
+  page_contact: "Liên hệ"
+  page_help: "Giúp đỡ"
+  page_new: "Đăng ký"
+  name_book: "Ruby on Rails Tutorial"
+  write: "viết bởi"
+  author: "Michael Hartl"
   static_pages:
     about:
-      page: "Về chúng tôi"
-      name_book: "Ruby on Rails Tutorial"
       is_a: "là"
-      status: "một cuốn sách tốt"
-      address: "Address"
-      full_name: "Full name"
+      status: "một cuốn sách"
+      address: "địa chỉ"
+      full_name: "tên"
     home:
-      page: "Trang chủ"
-      name_book: "Ruby on Rails Tutorial"
-      status: "rất tốt"
-    contact:
-      page: "Liên hệ"
-    help:
-      page: "Giúp đỡ"
+      status: "tốt"
+      welcome: "Chào mừng đến với Huyền Cherry"

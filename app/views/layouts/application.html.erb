@@ -2,14 +2,19 @@
 <html>
   <head>
     <%= csrf_meta_tags %> 
-    <title><%= yield :title %> | Ruby on Rails Tutorial Sample App</title>
+    <title><%= full_title yield :title %></title>
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render "layouts/shim" %>
   </head>
 
   <body>
-    <%= link_to "English", locale: "en" %>
-    <%= link_to "Vietnamese", locale: "vi" %>
-    <%= yield %>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <%= yield %>
+      <%= link_to "English", locale: "en" %>
+      <%= link_to "Vietnamese", locale: "vi" %>
+      <%= render "layouts/footer" %>
+    </div>
   </body>
 </html>
