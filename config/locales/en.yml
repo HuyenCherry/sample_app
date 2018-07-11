@@ -1,17 +1,20 @@
 en:
+  app_name: "Huyen Cherry"
+  page_home: "Home"
+  page_about: "About"
+  page_contact: "Contact"
+  page_help: "Help"
+  page_new: "Sign up"
+  name_book: "Ruby on Rails Tutorial"
+  write: "by"
+  author: "Michael Hartl"
   static_pages:
     about:
-      page: "About"
-      name_book: "Ruby on Rails Tutorial"
       is_a: "is a"
       status: "one book"
       address: "Address"
       full_name: "Full name"
     home:
-      page: "Home"
-      name_book: "Ruby on Rails Tutorial"
       status: "is nice"
-    contact:
-      page: "Contact"
-    help:
-      page: "Help"
+      welcome: "Welcome to the Huyen Cherry"
+
