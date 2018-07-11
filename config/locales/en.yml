@@ -8,6 +8,7 @@ en:
   page_new: "News"
   page_login: "Log in"
   page_logout: "Log out"
+  page_edit: "Edit account"
   name_book: "Ruby on Rails Tutorial"
   write: "by"
   author: "Michael Hartl"
@@ -17,12 +18,18 @@ en:
   something: "Can not find anything"
   create_user: "Create user suscess"
   new_user: "New user?"
-  btn_create_account: "Create my account"
   btn_sign_up_now: "Sign up now!"
-  remember_me: "Remember me"
+  btn_create_account: "Create my account"
+  btn_update_account: "Save change"
   profile: "Profile"
   setting: "Setting"
   login_fail: "Invalid email/password combination"
+  change: "Change"
+  all_user: "All user"
+  del_user: "Delete user"
+  require_login: "Please login"
+  question_before_del_user: "You sure?"
+  account: "Account"
   static_pages:
     about:
       is_a: "is a"
@@ -32,4 +39,22 @@ en:
     home:
       status: "is nice"
       welcome: "Welcome to the Huyen Cherry"
+  hello: "Hello world"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found"
+          one: "Displaying <b>1</b> %{entry_name}"
+          other: "Displaying <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Displaying %{entry_name}
+         <b>%{first} - %{last}</b> of <b>%{total}</b> in total"
 
