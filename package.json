@@ -1,5 +1,7 @@
 {
   "name": "sample_app",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "config": "^1.30.0"
+  }
 }
