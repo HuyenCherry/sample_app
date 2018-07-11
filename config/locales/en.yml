@@ -5,9 +5,15 @@ en:
   page_contact: "Contact"
   page_help: "Help"
   page_new: "Sign up"
+  page_new: "News"
   name_book: "Ruby on Rails Tutorial"
   write: "by"
   author: "Michael Hartl"
+  submit: "Create my account"
+  error: "error"
+  inform_error: "The form contains"
+  something: "Can not find anything"
+  create_user: "Create user suscess"
   static_pages:
     about:
       is_a: "is a"
