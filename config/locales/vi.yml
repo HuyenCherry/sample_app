@@ -35,6 +35,16 @@ vi:
   account_activated: "Kích hoạt tài khoản!"
   account_invalid: "Tài khoản chưa được kích hoạt"
   btn_activate_account: "Nhấp vào đường link dưới đây để kích hoạt tài khoản"
+  forgot_password: "(Quên mật khẩu)"
+  email_reset_password: "Email hướng dẫn đặt lại mật khẩu"
+  email_not_found: "Không tìm thấy địa chỉ email"
+  reset_password: "Đặt lại mật khẩu"
+  btn_reset_pass: "Để đặt lại mật khẩu bạn nhấp chuột vào link dưới đây:"
+  expire_link: "Link này sẽ hết hạn sau 2h"
+  update_pass_success: "Mật khẩu đã được đặt lại."
+  pass_expired: "Mật khẩu hết hạn."
+  confirm: "Xác nhận"
+  empty: "Không được để trống"
   static_pages:
     about:
       is_a: "là"
