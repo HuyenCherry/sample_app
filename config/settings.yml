@@ -4,3 +4,4 @@ pass_min: 6
 avatar_size: 80
 per_page: 10
 avatar: 50
+expire_time: 2
