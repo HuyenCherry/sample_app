@@ -2,16 +2,14 @@ class UsersController < ApplicationController
   before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
-  before_action :load_user, only: [:show, :edit, :update, :destroy] 
+  before_action :load_user, only: [:show, :edit, :update, :destroy]
 
   def index
     @users = User.page(params[:page]).per Settings.per_page
   end
 
   def show
-    return if @user
-    flash[:danger] = t("something")
-    redirect_to root_path
+    redirect_to(root_url) && return unless @user
   end
 
   def new
@@ -21,16 +19,15 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t("create_user")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t("require_check_email")
+      redirect_to root_url
     else
       render :new
     end
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     if @user.update_attributes user_params
@@ -46,8 +43,8 @@ class UsersController < ApplicationController
       flash[:success] = t("del_user")
     else
       flash[:danger] = t("error")
-      redirect_to users_url
     end
+    redirect_to users_url
   end
 
   private
@@ -79,4 +76,3 @@ class UsersController < ApplicationController
     redirect_to root_path
   end
 end
-

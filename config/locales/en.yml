@@ -30,6 +30,10 @@ en:
   require_login: "Please login"
   question_before_del_user: "You sure?"
   account: "Account"
+  require_check_email: "Please check your email to activate your account."
+  account_activated: "Account activated!"
+  account_invalid: "Invalid activation link"
+  btn_activate_account: "Click on the link below to activate your account"
   static_pages:
     about:
       is_a: "is a"

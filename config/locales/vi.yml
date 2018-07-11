@@ -27,8 +27,14 @@ vi:
   change: "Thay đổi"
   all_user: "Người dùng"
   del_user: "Xóa người dùng"
-  require_login: "Please log in"
+  require_login: "Vui lòng đăng nhập"
+  question_before_del_user: "Bạn có chắc chắn muốn xóa"
   account: "Tài khoản"
+  require_check_email: "Vui lòng kiểm tra email của bạn để 
+    kích hoạt tài khoản của bạn."
+  account_activated: "Kích hoạt tài khoản!"
+  account_invalid: "Tài khoản chưa được kích hoạt"
+  btn_activate_account: "Nhấp vào đường link dưới đây để kích hoạt tài khoản"
   static_pages:
     about:
       is_a: "là"
