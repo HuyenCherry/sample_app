@@ -1,13 +1,19 @@
 vi:
-  app_name: "Huyen Cherry"
+  app_name: "Huyền Cherry"
   page_home: "Trang chủ"
   page_about: "Về chúng tôi"
   page_contact: "Liên hệ"
   page_help: "Giúp đỡ"
-  page_new: "Đăng ký"
+  page_signup: "Đăng ký"
+  page_new: "Tin mới"
   name_book: "Ruby on Rails Tutorial"
   write: "viết bởi"
   author: "Michael Hartl"
+  submit: "Đăng ký"
+  error: "lỗi"
+  inform_error: "Mẫu đăng ký có"
+  something: "Không tìm thấy"
+  create_user: "Thêm tài khoản thành công"
   static_pages:
     about:
       is_a: "là"
