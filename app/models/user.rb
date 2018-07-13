@@ -6,9 +6,20 @@ class User < ApplicationRecord
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
   validates :password, presence: true, length: {minimum: Settings.pass_min}
-  before_save :check
+  before_save :downcase_email
+
+  class << self
+    def digest string
+      cost = BCrypt::Engine::MIN_COST if ActiveModel::SecurePassword.min_cost
+      cost = BCrypt::Engine::MIN_COST unless
+        ActiveModel::SecurePassword.min_cost
+      BCrypt::Password.create(string, cost: cost)
+    end
+  end
+
   private
-  def check
+  def downcase_email
     email.downcase!
   end
+  
 end
