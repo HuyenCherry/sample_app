@@ -6,6 +6,8 @@ vi:
   page_help: "Giúp đỡ"
   page_signup: "Đăng ký"
   page_new: "Tin mới"
+  page_login: "Đăng nhập"
+  page_logout: "Đăng xuất"
   name_book: "Ruby on Rails Tutorial"
   write: "viết bởi"
   author: "Michael Hartl"
@@ -14,6 +16,13 @@ vi:
   inform_error: "Mẫu đăng ký có"
   something: "Không tìm thấy"
   create_user: "Thêm tài khoản thành công"
+  new_user: "Tài khoản mới?"
+  btn_create_account: "Thêm tài khoản"
+  btn_sign_up_now: "Đăng nhập ngay!"
+  remember_me: "Nhớ mật khẩu"
+  profile: "Hồ sơ"
+  setting: "Cài đặt"
+  login_fail: "Email hoặc mật khẩu sai"
   static_pages:
     about:
       is_a: "là"
