@@ -17,13 +17,13 @@ class UsersController < ApplicationController
       flash[:success] = t("create_user")
       redirect_to @user
     else
-      render "new"
+      render :new
     end
   end
 
   private
   def user_params
-    params.require(:user).permit :name, :email, :pasword,
+    params.require(:user).permit :name, :email, :password,
       :password_confirmation
   end
 end
