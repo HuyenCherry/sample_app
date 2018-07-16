@@ -8,6 +8,7 @@ vi:
   page_new: "Tin mới"
   page_login: "Đăng nhập"
   page_logout: "Đăng xuất"
+  page_edit: "Cập nhật tài khoản"
   name_book: "Ruby on Rails Tutorial"
   write: "viết bởi"
   author: "Michael Hartl"
@@ -17,12 +18,17 @@ vi:
   something: "Không tìm thấy"
   create_user: "Thêm tài khoản thành công"
   new_user: "Tài khoản mới?"
-  btn_create_account: "Thêm tài khoản"
   btn_sign_up_now: "Đăng nhập ngay!"
-  remember_me: "Nhớ mật khẩu"
+  btn_create_account: "Thêm tài khoản"
+  btn_update_account: "Lưu thay đổi"
   profile: "Hồ sơ"
   setting: "Cài đặt"
   login_fail: "Email hoặc mật khẩu sai"
+  change: "Thay đổi"
+  all_user: "Người dùng"
+  del_user: "Xóa người dùng"
+  require_login: "Please log in"
+  account: "Tài khoản"
   static_pages:
     about:
       is_a: "là"
@@ -32,3 +38,21 @@ vi:
     home:
       status: "tốt"
       welcome: "Chào mừng đến với Huyền Cherry"
+  hello: "Hello world"
+  views:
+    pagination:
+      first: "« đầu"
+      last: "cuối »"
+      previous: "‹ trước đó"
+      next: "sau ›"
+      truncate: "…"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "Không %{entry_name} tìm thấy"
+          one: "Hiển thị <b>1</b> %{entry_name}"
+          other: "Hiển thị <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Hiển thị %{entry_name}
+         <b>%{first} - %{last}</b> of <b>%{total}</b> in total"
