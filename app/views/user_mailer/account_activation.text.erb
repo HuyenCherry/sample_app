@@ -1,0 +1,6 @@
+Hi <%= @user.name %>,
+
+<p><%= t "btn_activate_account" %></p>
+
+<%= edit_account_activation_url(id: @user.activation_token,
+  email: @user.email) %>
