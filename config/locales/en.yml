@@ -34,7 +34,18 @@ en:
   account_activated: "Account activated!"
   account_invalid: "Invalid activation link"
   btn_activate_account: "Click on the link below to activate your account"
-  static_pages:
+  forgot_password: "(Forgot Password)"
+  email_reset_password: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  reset_password: "Reset Password"
+  btn_reset_pass: "To reset your password click the link below:"
+  expire_link: "This link will expire in two hours."
+  update_pass_success: "Password has been reset."
+  pass_expired: "Password reset has expired."
+  confirm: "Confirmation"
+  empty: "Can't be empty"
+  activation_account: "Account activation"
+  static_pages: 
     about:
       is_a: "is a"
       status: "one book"
